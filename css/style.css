@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+.policeTitre
+{
+    font-family: 'Montserrat', sans-serif;
+}
+h1
+{
+    text-shadow: 2px 2px rgb(119, 118, 118);
+    color: #ffffff;
+    margin-left: 75px;
+}
+.h4
+{
+    text-align: center;
+}
+.imageFond
+{
+    background-image: url(../asset/sunset_curve.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
+
+}
+.backgroundColorCarousel
+{
+    background-color: silver;
+}
+.replacementImage
+{
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+    width: 100%;
+    height: 100%;
+}
+.margeTaille
+{
+    padding: 75px;
+}
+.colorEntete
+{
+    background-color: black;
+    color: white;
+}
+.colorForm
+{
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black 0%, #fd7405 75%); /* Standard syntax (must be last) */
+}
+.espace
+{
+    margin: 2px;
+}
+.displayIt
+{
+    display: inline;
+}
+.centerAccordion
+{
+    text-align: center;
+}
+.card
+{
+    width: 75%;
+    height: 95%;
+}
+.carouselCard
+{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.colorTexte
+{
+    color: #fd7405;
+}
+.trapezoid 
+{
+    width: 100%;
+    height: 100%;
+    transform: perspective(5px) rotateX(1deg);
+
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.trapezoidInverse
+{
+    width: 100%;
+    height: 100%;
+    transform: perspective(5px) rotateX(-1deg);
+    text-align: center;
+    margin-top: 0;
+
+}
+.resizeBoutton
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.libeleCoord
+{
+    text-align: left;
+}
+.backgroundVideo
+{
+    background-image: url(../asset/sunset_rect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.borderVideo
+{
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+    border-radius: 5px;
+}
