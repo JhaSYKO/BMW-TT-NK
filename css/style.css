@@ -51,7 +51,7 @@ h1
 }
 .espace
 {
-    margin: 2px;
+    margin: 5px;
 }
 .displayIt
 {
@@ -99,9 +99,22 @@ h1
     width: 100%;
     margin-bottom: 5px;
 }
+.libele
+{
+    margin-left: 20%;
+    width: 100%;
+    height: 100%;
+}
 .libeleCoord
 {
-    text-align: left;
+    background-image: url(../asset/box-orange.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    justify-content: right;
+    margin-left: 40%;
+    width: 100%;
+    height: 100%;
+
 }
 .backgroundVideo
 {

@@ -10,13 +10,13 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <div class="container-fluid imageFond">
-            <div class="row border">
+        <div class="container-fluid imageFond w-100">
+            <div class="row border w-100">
                 <div>
                     <h1><img src="./asset/logo.png" alt="logo"><b class="text-shadow lg policeTitre">Luxure Auto<b></h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row w-100">
                 <div class="container-fluid">
                     <div class="row">  
                         <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -96,38 +96,43 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row w-100">
                 <div class="container-fluid border margeTaille">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 border">
                             <div class="colorTexte">
-                            <h2 class="font-weight-bold policeTitre">BMW Série DW <span class="badge badge-secondary">New</span></h2>
+                            <h2 class="font-weight-bold policeTitre espace">BMW Série DW <span class="badge badge-secondary">New</span></h2>
                             </div>
                             <div class="espace">
                                 <span class="badge badge-primary">6 vitesse</span>
                                 <span class="badge badge-primary">3 portes</span>
                                 <span class="badge badge-primary">toit ouvrant</span>
                             </div>
-                            <div class="">
+                            <div class="espace">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et diam at urna dictum ultricies. Mauris sodales mattis lectus, id molestie est laoreet ac. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et diam at urna dictum ultricies. Mauris sodales mattis lectus, id molestie est laoreet ac. 
 
                                 </p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
-                            <div class="libeleCoord">
-                            <h2>Luxure Auto</h2>
-                            <p>
-                                rue des carburateurs<br>
-                                98000 Papeete<br>
-                                (689) 87 79 10 37
-                            </p>
+                            <div class="container-fluid libeleCoord">
+                                <div class="row ">
+                                    <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12  libele">
+                                        <h2>Luxure Auto</h2>
+                                        <p>
+                                            rue des carburateurs<br>
+                                            98000 Papeete<br>
+                                            (689) 87 79 10 37
+                                        </p>
+                                    </div>
+                                </div>
                             </div>    
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row border margeTaille">
+            <div class="row border margeTaille w-100">
                     <h3 class="text-primary "><b>Caractéristique</b></h3>
                 <div class=" container-fluid border">
                     <div class="row displayIt">
@@ -261,96 +266,47 @@
                     google map
                 </div>
             </div>
-            <div class="row border margeTaille">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="row">
-                                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-                                    <div class="col-xs-3 col-sm-3 col-md-8 col-lg-3 trapezoid backgroundColorCarousel">
-                                        <br>
-                                        <div class="trapezoidInverse w-100" style="margin-bottom: 10px;">
-                                        <h5 class="policeTitre"><b>Nos Autres Modèles</b></h5>
+            <div class="row border margeTaille backgroundColorCarousel">
+                    <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <div class="container-fluid">
+                                    <div class="card d-block w-100 col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <img class="card-img-top" src="./asset/vig_serie1.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
                                     </div>
-                                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-8"></div>
-                                </div>
-                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="background-color: silver;">
-                                        <div class="carousel-inner p-5">
-                                            <div class="carousel-item active">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="card carouselCard col-xs-12 col-sm-12 col-md-12 col-lg-3">
-                                                            <img class="card-img-top" src="./asset/vig_serie5.png" alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h2 class="card-title policeTitre">serie 5</h2>
-                                                                <p class="card-text w-100">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card carouselCard col-xs-12 col-sm-12 col-md-12 col-lg-3">
-                                                            <img class="card-img-top" src="./asset/vig_serie1.png" alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h2 class="card-title policeTitre">serie 1</h2>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card carouselCard col-xs-12 col-sm-12 col-md-12 col-lg-3">
-                                                            <img class="card-img-top" src="./asset/vig_serieE.png" alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h2 class="card-title policeTitre">serie E</h2>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="card carouselCard col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                                            <img class="card-img-top" src="./asset/vig_serieM.png" alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h2 class="card-title policeTitre">serie M</h2>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card carouselCard col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                                            <img class="card-img-top" src="./asset/vig_serie1.png" alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h2 class="card-title policeTitre">serie 1</h2>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card carouselCard col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                                                            <img class="card-img-top" src="./asset/vig_serieE.png" alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h2 class="card-title policeTitre">serie E</h2>
-                                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div> 
-                                            </div>
+                                    <div class="card d-block w-100 col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <img class="card-img-top" src="./asset/vig_serie1.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         </div>
-                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
                                     </div>
-                        </div>
-                        
-                    </div>
-                </div>
+                                    <div class="card d-block w-100 col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                        <img class="card-img-top" src="./asset/vig_serie1.png" alt="Card image cap">
+                                        <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                        </div>   
             </div>
         </div>
         <script  src="js/jquery.min.js"></script>
